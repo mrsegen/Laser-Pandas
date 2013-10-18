@@ -1,4 +1,5 @@
-head = [["Laser Eyes"],
+/* The Genotypes */
+String[] headGts = [["Laser Eyes"],
         ["Large Brain"],
         ["Demon Horns"],
         ["Invisible"],
@@ -11,7 +12,7 @@ head = [["Laser Eyes"],
         ["Can’t smell"],
         ["Blind"]]
 
-body = [["Demon Wings"],
+String[] bodyGts = [["Demon Wings"],
         ["Rebel Pilot Armor"],
         ["Extra Legs"],
         ["Scuba Tank"],
@@ -20,7 +21,7 @@ body = [["Demon Wings"],
         ["Porcupine Quills"],
         ["Normal"]]
 
-legs = [["Invisible"],
+String[] legsGts = [["Invisible"],
         ["Shotgun"],
         ["Crab Claws"],
         ["Hooks"],
