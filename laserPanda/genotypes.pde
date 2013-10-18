@@ -1,4 +1,4 @@
-/* The Genotypes */
+/* The Genotypes with dominant alleles at higher in each list. */
 String[] headGts = [["Laser Eyes"],
         ["Large Brain"],
         ["Demon Horns"],
