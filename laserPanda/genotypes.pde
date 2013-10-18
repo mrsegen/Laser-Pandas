@@ -11,5 +11,21 @@ head = [["Laser Eyes"],
         ["Can’t smell"],
         ["Blind"]]
 
+body = [["Demon Wings"],
+        ["Rebel Pilot Armor"],
+        ["Extra Legs"],
+        ["Scuba Tank"],
+        ["Invisible"],
+        ["Camouflage"],
+        ["Porcupine Quills"],
+        ["Normal"]]
 
-
+legs = [["Invisible"],
+        ["Shotgun"],
+        ["Crab Claws"],
+        ["Hooks"],
+        ["Flippers"],
+        ["Thumbs"],
+        ["Claws"],
+        ["Normal"],
+        ["No Claws"]]
