@@ -4,4 +4,4 @@ This is inspired by the original Laser Pandas developed by Shawn Cornally: http:
 
 This version is being developed by students in South Hamilton's "current science" course: http://leifsegen.com/schoolblog/courses/current-science/
 
-Contact: mr.segen@gmail.com
+Contact: mr [dot] segen [at] gmail
