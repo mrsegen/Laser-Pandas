@@ -6,4 +6,6 @@ This version is being developed by students in South Hamilton's "current science
 
 The need for a programmed version was perceived after it became clear that every turn of the game required 8x8 Punnet squares. Developers saw this as a prereq to version 2.0.
 
+Processing.org is the development environment for now.
+
 Contact: mr [dot] segen [at] gmail
