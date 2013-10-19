@@ -1,5 +1,7 @@
 Laser-Pandas
 ============
+The game is not yet funcitonal as students are still preparing code.
+
 This is inspired by the original Laser Pandas developed by Shawn Cornally: http://shawncornally.com/wordpress/?p=2499
 
 This version is being developed by students in South Hamilton's "current science" course: http://leifsegen.com/schoolblog/courses/current-science/
