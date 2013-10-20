@@ -6,7 +6,7 @@ This is inspired by the original Laser Pandas developed by Shawn Cornally: http:
 
 This version is being developed by students in South Hamilton's "current science" course: http://leifsegen.com/schoolblog/courses/current-science/
 
-The need for a programmed version was perceived after it became clear that every turn of the game required 8x8 Punnet squares. Developers saw this as a prereq to version 2.0.
+The need for a programmed version was perceived after it became clear that every turn of the game required lots of paper work and/or 8x8 Punnet squares. Developers saw this as a prereq to version 2.0.
 
 Processing.org is the development environment for now.
 
