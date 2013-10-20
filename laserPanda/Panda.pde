@@ -43,7 +43,7 @@ class panda{
 //    }
 //    sex = Sex;
     
-    // Assign random genotypes
+    // Assign genotypes
     hGts[0] = h1;
     hGts[1] = h2;
     bGts[0] = b1;
@@ -73,7 +73,14 @@ class panda{
   //methods
   
   void mateWith(panda partner) {
-    
+    // Grab randomly from each genotype pair, of each partner, for each trait
+    int h1 = hGts[(int) random(2)];
+    int h2 = partner.hGts[(int) random(2)];
+    int b1 = bGts[(int) random(2)];
+    int b2 = partner.bGts[(int) random(2)];
+    int l1 = lGts[(int) random(2)];
+    int l2 = partner.lGts[(int) random(2)];
+    ranch.addPanda(new panda("Kid",h1,h2,b1,b2,l1,l2));
   }
   
 //  void attack(panda otherGuy){

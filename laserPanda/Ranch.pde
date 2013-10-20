@@ -13,4 +13,11 @@ class Ranch {
   void addPanda(panda p) {
     pandas.add(p);
   }
+  
+  void printAll() {
+    for (panda p : pandas) {
+      p.printPheno();
+      println("------");
+    }
+  }
 }

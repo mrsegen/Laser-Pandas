@@ -48,7 +48,7 @@ Ranch ranch = new Ranch();
 int numRounds = 3;
 int currentRound = 0;
 
-panda sven = new panda("Steve");
+panda sven = new panda("Svan");
 panda glenn = new panda("Glenn");
 
 void setup(){
@@ -63,10 +63,11 @@ void setup(){
 }
 
 void draw(){
-  if (currentRound < numRounds) {
-    sven.printPheno();
-    println(ranch.get(0).name);
-    ranch.get(0).printPheno();
+  if (currentRound < numRounds) { // Limit number of times this is run for nnow.
+    
+    // Meaningless code to test coherence 
+    ranch.get(0).mateWith(ranch.get(ranch.pandas.size()-1));
+    ranch.printAll();
     
     currentRound ++;
   }
