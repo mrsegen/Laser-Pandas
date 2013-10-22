@@ -56,9 +56,9 @@ class panda{
   }
   
   void printPheno() {
-    println(name+"'s Head: "+ headGts[min(hGts)]);
-    println(name+"'s Body: "+ bodyGts[min(bGts)]);
-    println(name+"'s Legs: "+ legsGts[min(lGts)]);
+    println(name+"'s Head: "+ headGts[min(hGts)] + " Genotype: " + hGtNames[0] + ", " + hGtNames[1]);
+    println(name+"'s Body: "+ bodyGts[min(bGts)] + " Genotype: " + bGtNames[0] + ", " + bGtNames[1]);
+    println(name+"'s Legs: "+ legsGts[min(lGts)] + " Genotype: " + lGtNames[0] + ", " + lGtNames[1]);
   }
   
   void refreshGenoNames() {
@@ -71,7 +71,6 @@ class panda{
   }
   
   //methods
-  
   void mateWith(panda partner) {
     // Grab randomly from each genotype pair, of each partner, for each trait
     int h1 = hGts[(int) random(2)];
@@ -83,34 +82,7 @@ class panda{
     ranch.addPanda(new panda("Kid",h1,h2,b1,b2,l1,l2));
   }
   
-//  void attack(panda otherGuy){
-//    if(!otherGuy.defend()){
-//      int pain = strength - otherGuy.armor;
-//      otherGuy.sufferInjury(pain);
-//      println(name+" hit "+otherGuy.name+" for "+pain+" damage.");
-//    }
-//    else println(name+" missed!");
-//  }
-  
-//  boolean defend(){
-//    int dieRoll = (int) random(100);
-//    if(dieRoll>defense+luck){
-//      return false;
-//    }
-//    else{
-//      return true;
-//    }
-//  }
-  
-//  void sufferInjury(int damage){
-//    health -= damage;
-//  }
-  
   String nickname () {
     return name.substring(0,3);
   }
-  
-//  int metaDefense() {
-//    return defense + armor + luck;
-//  }
 }
